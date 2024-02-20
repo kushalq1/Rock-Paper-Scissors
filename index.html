@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rock-Paper</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="score">
+      <div class="s-text">
+        <p class="text">You</p>
+      </div>
+      <div class="number-box">
+        <p class="me-s text">0</p>
+        <p class="colen text">:</p>
+        <p class="bot-s text">0</p>
+      </div>
+      <div class="s-text">
+        <p class="text">Bot</p>
+      </div>
+    </div>
+
+    <!-- <div class="reset">RESET</div> -->
+
+    <div class="boxes">
+      <div class="box">
+        <div id="rock" class="circle">
+          <img class="img" src="img/rock.png" alt="" />
+        </div>
+      </div>
+      <div class="box">
+        <div id="paper" class="circle">
+          <img class="img" src="img/paper.png" alt="" />
+        </div>
+      </div>
+      <div class="box">
+        <div id="scissor" class="circle">
+          <img class="img" src="img/scissors.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="msg">
+      <p class="win-lost">START</p>
+      <div class="tracker">
+        <p id="fst">Bot made</p>
+        <p id="mi"></p>
+        <p id="son"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
